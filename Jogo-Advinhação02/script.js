@@ -31,7 +31,7 @@ function handClick(event) {
 
     inputNumber.value = ''//limpar o campo
     tentativa++// faça nova tentativa
-}
+  }
 
 function handResetClick() {
   toggleScreen()
