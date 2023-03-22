@@ -12,25 +12,21 @@ const btnErro = document.querySelector('.alert-error')
 
 
 form.onsubmit = function(event) {
-    event.preventDefault(event)
+         event.preventDefault(event)
 
-    const peso = Number(inputPeso.value)
-    const altura = Number(inputAltura.value)
+        const peso = inputPeso.value
+        const altura = inputAltura.value
+         const result = calculoIMC(peso, altura)
+         const mensagem = `O sei IMC é ${result}`
 
-    const result = IMC(peso, altura)
-    const mensagem =`O seu IMC é ${result}`
-    btnMessage.innerHTML = mensagem
-    
-    btnWrapper.classList.add('open')
-    btnErro.classList.add('open')
-   
+         btnMessage.innerHTML = mensagem
+         btnWrapper.classList.add('open')
 }
 
-btnClose.onclick = function(){
+btnClose.onclick = function() {
     btnWrapper.classList.remove('open')
-    btnErro.classList.remove('open')
 }
 
-function IMC(peso, altura) {
-   return( peso / (altura ** 2)).toFixed(2)
+function calculoIMC(peso, altura) {
+    return (peso / (altura ** 2)).toFixed(2)
 }
