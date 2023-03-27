@@ -44,7 +44,7 @@ function timerGeral() {
         }
 
         if(segundo <= 0){
-            segundo = 10
+            segundo = 60
 
             atualizar(String(minuto - 1), segundo)
             //minutos.textContent = String(minuto - 1).padStart(2,"0")
