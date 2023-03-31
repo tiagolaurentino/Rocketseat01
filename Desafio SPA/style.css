@@ -1,0 +1,135 @@
+
+/*font-family: 'Roboto', sans-serif;*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.img {
+    background-image: url("./imagens/mountains-universe-1\ 1.svg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+
+    position: absolute;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img02 {
+    background-image: url("./imagens/mountains-universe-2.svg");
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+
+    position: absolute;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+}
+
+.img03 {
+    background-image: url("./imagens/mountains-universe-3.svg");
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+
+    position: absolute;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color:  #E1E1E6;
+    font-size: 4.8rem;
+    line-height: 6.0rem;
+    font-weight: 700;
+    font-family: roboto;
+}
+
+ .center01 {
+    padding-left: 10.2rem;
+}
+
+.center h1, .center01 h1 {
+    padding-bottom: 1.6rem;
+}
+
+.center p, .center01 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.9rem;
+
+    color: #E1E1E6;
+    
+}
+
+nav {
+    position: absolute;
+    margin-top: 50px;
+    color: white;
+
+    z-index: 1;
+
+    padding-left: 7.2rem;
+
+    display: flex;
+    gap: 3rem;
+}
+
+a {
+    font-size: 2.1rem;
+    color: #E1E1E6;
+    text-decoration-line: none;
+}
+
+button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    height: 48px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    margin-left: 100px;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E1E1E6;
+    color: rgb(0, 106, 255);
+}
+
+
+
+#img {
+    height: 100vh;
+    width: 100%;
+}
+
+
+
